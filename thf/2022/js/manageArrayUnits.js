@@ -93,7 +93,7 @@ const showBy = () => {
             {x: xArray, y: unitList[0][1], name:"2022", type:"bar"},
             {x: xArray, y: unitList[0][2], name:"FamilySearch", mode:"lines"}      
             ];
-            document.getElementById("demo").innerHTML = unitList[0][2];
+            // document.getElementById("demo").innerHTML = unitList[0][2];
             // Define Layout
             var layout = {
             xaxis: { title: ""},
@@ -113,7 +113,7 @@ const showBy = () => {
             {x: xArray, y: unitList[1][1], name:"2022", type:"bar"},
             {x: xArray, y: unitList[1][2], name:"FamilySearch", mode:"lines"}      
             ];
-            document.getElementById("demo").innerHTML = unitList[1][2];    
+            // document.getElementById("demo").innerHTML = unitList[1][2];    
             // Define Layout
             var layout = {
             xaxis: { title: ""},
@@ -133,7 +133,7 @@ const showBy = () => {
             {x: xArray, y: unitList[2][1], name:"2022", type:"bar"},
             {x: xArray, y: unitList[2][2], name:"FamilySearch", mode:"lines"}      
             ];
-            document.getElementById("demo").innerHTML = unitList[2][2];    
+            // document.getElementById("demo").innerHTML = unitList[2][2];    
             // Define Layout
             var layout = {
             xaxis: { title: ""},
@@ -153,7 +153,7 @@ const showBy = () => {
                 {x: xArray, y: unitList[3][1], name:"2022", type:"bar"},
                 {x: xArray, y: unitList[3][2], name:"FamilySearch", mode:"lines"}      
                 ];
-                document.getElementById("demo").innerHTML = unitList[3][2];    
+                // document.getElementById("demo").innerHTML = unitList[3][2];    
                 // Define Layout
                 var layout = {
                 xaxis: { title: ""},
@@ -173,7 +173,7 @@ const showBy = () => {
                 {x: xArray, y: unitList[4][1], name:"2022", type:"bar"},
                 {x: xArray, y: unitList[4][2], name:"FamilySearch", mode:"lines"}      
                 ];
-                document.getElementById("demo").innerHTML = unitList[4][2];    
+                // document.getElementById("demo").innerHTML = unitList[4][2];    
                 // Define Layout
                 var layout = {
                 xaxis: { title: ""},
@@ -193,7 +193,7 @@ const showBy = () => {
                 {x: xArray, y: unitList[5][1], name:"2022", type:"bar"},
                 {x: xArray, y: unitList[5][2], name:"FamilySearch", mode:"lines"}      
                 ];
-                document.getElementById("demo").innerHTML = unitList[5][2];    
+                // document.getElementById("demo").innerHTML = unitList[5][2];    
                 // Define Layout
                 var layout = {
                 xaxis: { title: ""},
@@ -213,7 +213,7 @@ const showBy = () => {
                 {x: xArray, y: unitList[6][1], name:"2022", type:"bar"},
                 {x: xArray, y: unitList[6][2], name:"FamilySearch", mode:"lines"}      
                 ];
-                document.getElementById("demo").innerHTML = unitList[6][2];    
+                // document.getElementById("demo").innerHTML = unitList[6][2];    
                 // Define Layout
                 var layout = {
                 xaxis: { title: ""},
@@ -233,7 +233,7 @@ const showBy = () => {
                 {x: xArray, y: unitList[7][1], name:"2022", type:"bar"},
                 {x: xArray, y: unitList[7][2], name:"FamilySearch", mode:"lines"}      
                 ];
-                document.getElementById("demo").innerHTML = unitList[7][2];    
+                // document.getElementById("demo").innerHTML = unitList[7][2];    
                 // Define Layout
                 var iniFS =  unitList.length
                 var layout = {
@@ -254,7 +254,7 @@ const showBy = () => {
                 {x: xArray, y: unitList[8][1], name:"2022", type:"bar"},
                 {x: xArray, y: unitList[8][2], name:"FamilySearch", mode:"lines"}      
                 ];
-                document.getElementById("demo").innerHTML = unitList[8][2];    
+                // document.getElementById("demo").innerHTML = unitList[8][2];    
                 // Define Layout
                 var iniFS =  unitList.length
                 var layout = {
@@ -275,7 +275,7 @@ const showBy = () => {
                 {x: xArray, y: unitList[9][1], name:"2022", type:"bar"},
                 {x: xArray, y: unitList[9][2], name:"FamilySearch", mode:"lines"}      
                 ];
-                document.getElementById("demo").innerHTML = unitList[9][2];    
+                // document.getElementById("demo").innerHTML = unitList[9][2];    
                 // Define Layout
                 var layout = {
                 xaxis: { title: ""},
@@ -295,7 +295,7 @@ const showBy = () => {
                 {x: xArray, y: unitList[10][1], name:"2022", type:"bar"},
                 {x: xArray, y: unitList[10][2], name:"FamilySearch", mode:"lines"}      
                 ];
-                document.getElementById("demo").innerHTML = unitList[10][2];    
+                //document.getElementById("demo").innerHTML = unitList[10][2];    
                 // Define Layout
                 var iniFS =  unitList.length 
                 var layout = {
@@ -316,7 +316,7 @@ const showBy = () => {
             {x: xArray, y: unitList[0][1], name:"2022", type:"bar"},
             {x: xArray, y: unitList[0][2], name:"FamilySearch", mode:"lines"}      
             ];
-            document.getElementById("demo").innerHTML = unitList[0][0];    
+            // document.getElementById("demo").innerHTML = unitList[0][0];    
             // Define Layout
             var layout = {
             xaxis: { title: ""},
