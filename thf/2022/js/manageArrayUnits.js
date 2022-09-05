@@ -514,16 +514,18 @@ const showBy = () => {
             var data = [
             {x: xArray, y: unitList[0][0], name:"2021", type:"bar"},
             {x: xArray, y: unitList[0][1], name:"2022", type:"bar"},
-            {x: xArray, y: unitList[0][2], name:"FamilySearch", mode:"lines"}      
+            {x: xArray, y: unitList[0][2], name:"FamilySearch", mode:"lines"},
+            {x: xArray, y: unitList[0][3], name:"Recomendación", mode:"lines"}                             
             ];
             // document.getElementById("demo").innerHTML = unitList[0][0];    
             // Define Layout
-            var layout = {
-            xaxis: { title: ""},
-            yaxis: {range: [0, 300], title: "Membresía"},  
+                var recom =  unitList[0][3].length
+                var layout = {
+                xaxis: { title: ""},
+                yaxis: {range: [0, unitList[0][recom]], title: "Membresía"},
             title: "Miembros que enviaron nombres para ordenanzas al Templo este año"
             };
-            
+       
             // Display using Plotly
             Plotly.newPlot("myPlot", data, layout);
             break;
